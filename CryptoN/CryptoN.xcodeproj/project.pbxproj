@@ -20,6 +20,8 @@
 		8278A33C291D94FB00BE37A1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8278A33B291D94FB00BE37A1 /* GoogleService-Info.plist */; };
 		8278A33F291D955C00BE37A1 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 8278A33E291D955C00BE37A1 /* FirebaseAuth */; };
 		8278A341291D955C00BE37A1 /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 8278A340291D955C00BE37A1 /* FirebaseAuthCombine-Community */; };
+		8278A343291D99CF00BE37A1 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8278A342291D99CF00BE37A1 /* LoginVC.swift */; };
+		8278A345291D99EF00BE37A1 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8278A344291D99EF00BE37A1 /* SignUpVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,8 @@
 		8278A336291D858C00BE37A1 /* OnboardingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingVC.swift; sourceTree = "<group>"; };
 		8278A338291D85D100BE37A1 /* OnboardinCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardinCollectionViewCell.swift; sourceTree = "<group>"; };
 		8278A33B291D94FB00BE37A1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8278A342291D99CF00BE37A1 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		8278A344291D99EF00BE37A1 /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +78,8 @@
 				8278A335291D856500BE37A1 /* Onboarding */,
 				8278A330291D848100BE37A1 /* Extansion */,
 				8278A31C291D836800BE37A1 /* AppDelegate.swift */,
+				8278A342291D99CF00BE37A1 /* LoginVC.swift */,
+				8278A344291D99EF00BE37A1 /* SignUpVC.swift */,
 				8278A31E291D836800BE37A1 /* SceneDelegate.swift */,
 				8278A320291D836800BE37A1 /* ViewController.swift */,
 				8278A322291D836800BE37A1 /* Main.storyboard */,
@@ -190,7 +196,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8278A334291D851E00BE37A1 /* OnboardingSlide.swift in Sources */,
+				8278A345291D99EF00BE37A1 /* SignUpVC.swift in Sources */,
 				8278A337291D858C00BE37A1 /* OnboardingVC.swift in Sources */,
+				8278A343291D99CF00BE37A1 /* LoginVC.swift in Sources */,
 				8278A339291D85D100BE37A1 /* OnboardinCollectionViewCell.swift in Sources */,
 				8278A321291D836800BE37A1 /* ViewController.swift in Sources */,
 				8278A31D291D836800BE37A1 /* AppDelegate.swift in Sources */,
