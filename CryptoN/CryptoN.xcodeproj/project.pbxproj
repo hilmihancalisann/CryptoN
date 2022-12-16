@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		8278A31D291D836800BE37A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8278A31C291D836800BE37A1 /* AppDelegate.swift */; };
 		8278A31F291D836800BE37A1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8278A31E291D836800BE37A1 /* SceneDelegate.swift */; };
-		8278A321291D836800BE37A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8278A320291D836800BE37A1 /* ViewController.swift */; };
 		8278A324291D836800BE37A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8278A322291D836800BE37A1 /* Main.storyboard */; };
 		8278A326291D836900BE37A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8278A325291D836900BE37A1 /* Assets.xcassets */; };
 		8278A329291D836900BE37A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8278A327291D836900BE37A1 /* LaunchScreen.storyboard */; };
@@ -22,13 +21,19 @@
 		8278A341291D955C00BE37A1 /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 8278A340291D955C00BE37A1 /* FirebaseAuthCombine-Community */; };
 		8278A343291D99CF00BE37A1 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8278A342291D99CF00BE37A1 /* LoginVC.swift */; };
 		8278A345291D99EF00BE37A1 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8278A344291D99EF00BE37A1 /* SignUpVC.swift */; };
+		8278A349291E1E2A00BE37A1 /* UIViewConroller+Extansion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8278A348291E1E2A00BE37A1 /* UIViewConroller+Extansion.swift */; };
+		8278A34B291E206F00BE37A1 /* Userdefault+Extansion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8278A34A291E206F00BE37A1 /* Userdefault+Extansion.swift */; };
+		8278A3502927A57D00BE37A1 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8278A34F2927A57D00BE37A1 /* HomeVC.swift */; };
+		8278A3522927ABB800BE37A1 /* HomeTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8278A3512927ABB800BE37A1 /* HomeTVC.swift */; };
+		8278A35A294B697400BE37A1 /* CryptoCurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8278A359294B697400BE37A1 /* CryptoCurrency.swift */; };
+		8278A35D294B6B9A00BE37A1 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8278A35C294B6B9A00BE37A1 /* WebService.swift */; };
+		8278A360294B6FF200BE37A1 /* CryptoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8278A35F294B6FF200BE37A1 /* CryptoViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8278A319291D836800BE37A1 /* CryptoN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoN.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8278A31C291D836800BE37A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8278A31E291D836800BE37A1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8278A320291D836800BE37A1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8278A323291D836800BE37A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8278A325291D836900BE37A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8278A328291D836900BE37A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -40,6 +45,13 @@
 		8278A33B291D94FB00BE37A1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		8278A342291D99CF00BE37A1 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		8278A344291D99EF00BE37A1 /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		8278A348291E1E2A00BE37A1 /* UIViewConroller+Extansion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewConroller+Extansion.swift"; sourceTree = "<group>"; };
+		8278A34A291E206F00BE37A1 /* Userdefault+Extansion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Userdefault+Extansion.swift"; sourceTree = "<group>"; };
+		8278A34F2927A57D00BE37A1 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		8278A3512927ABB800BE37A1 /* HomeTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTVC.swift; sourceTree = "<group>"; };
+		8278A359294B697400BE37A1 /* CryptoCurrency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoCurrency.swift; sourceTree = "<group>"; };
+		8278A35C294B6B9A00BE37A1 /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		8278A35F294B6FF200BE37A1 /* CryptoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,8 @@
 		8278A310291D836800BE37A1 = {
 			isa = PBXGroup;
 			children = (
+				8278A35E294B6FD400BE37A1 /* ViewModels */,
+				8278A35B294B6B7400BE37A1 /* Service */,
 				8278A31B291D836800BE37A1 /* CryptoN */,
 				8278A31A291D836800BE37A1 /* Products */,
 			);
@@ -74,14 +88,11 @@
 		8278A31B291D836800BE37A1 /* CryptoN */ = {
 			isa = PBXGroup;
 			children = (
+				8278A346291E1A8000BE37A1 /* ViewConroller */,
 				8278A33A291D89F600BE37A1 /* Model */,
-				8278A335291D856500BE37A1 /* Onboarding */,
 				8278A330291D848100BE37A1 /* Extansion */,
 				8278A31C291D836800BE37A1 /* AppDelegate.swift */,
-				8278A342291D99CF00BE37A1 /* LoginVC.swift */,
-				8278A344291D99EF00BE37A1 /* SignUpVC.swift */,
 				8278A31E291D836800BE37A1 /* SceneDelegate.swift */,
-				8278A320291D836800BE37A1 /* ViewController.swift */,
 				8278A322291D836800BE37A1 /* Main.storyboard */,
 				8278A325291D836900BE37A1 /* Assets.xcassets */,
 				8278A327291D836900BE37A1 /* LaunchScreen.storyboard */,
@@ -95,6 +106,8 @@
 			isa = PBXGroup;
 			children = (
 				8278A331291D84BA00BE37A1 /* Extansion+UIView.swift */,
+				8278A348291E1E2A00BE37A1 /* UIViewConroller+Extansion.swift */,
+				8278A34A291E206F00BE37A1 /* Userdefault+Extansion.swift */,
 			);
 			path = Extansion;
 			sourceTree = "<group>";
@@ -112,8 +125,53 @@
 			isa = PBXGroup;
 			children = (
 				8278A333291D851E00BE37A1 /* OnboardingSlide.swift */,
+				8278A359294B697400BE37A1 /* CryptoCurrency.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		8278A346291E1A8000BE37A1 /* ViewConroller */ = {
+			isa = PBXGroup;
+			children = (
+				8278A34E2927A53100BE37A1 /* TabBarCotroller */,
+				8278A347291E1A9400BE37A1 /* LoginVC */,
+				8278A335291D856500BE37A1 /* Onboarding */,
+			);
+			path = ViewConroller;
+			sourceTree = "<group>";
+		};
+		8278A347291E1A9400BE37A1 /* LoginVC */ = {
+			isa = PBXGroup;
+			children = (
+				8278A342291D99CF00BE37A1 /* LoginVC.swift */,
+				8278A344291D99EF00BE37A1 /* SignUpVC.swift */,
+			);
+			path = LoginVC;
+			sourceTree = "<group>";
+		};
+		8278A34E2927A53100BE37A1 /* TabBarCotroller */ = {
+			isa = PBXGroup;
+			children = (
+				8278A34F2927A57D00BE37A1 /* HomeVC.swift */,
+				8278A3512927ABB800BE37A1 /* HomeTVC.swift */,
+			);
+			path = TabBarCotroller;
+			sourceTree = "<group>";
+		};
+		8278A35B294B6B7400BE37A1 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				8278A35C294B6B9A00BE37A1 /* WebService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		8278A35E294B6FD400BE37A1 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				8278A35F294B6FF200BE37A1 /* CryptoViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,13 +255,19 @@
 			files = (
 				8278A334291D851E00BE37A1 /* OnboardingSlide.swift in Sources */,
 				8278A345291D99EF00BE37A1 /* SignUpVC.swift in Sources */,
+				8278A35D294B6B9A00BE37A1 /* WebService.swift in Sources */,
+				8278A35A294B697400BE37A1 /* CryptoCurrency.swift in Sources */,
+				8278A349291E1E2A00BE37A1 /* UIViewConroller+Extansion.swift in Sources */,
 				8278A337291D858C00BE37A1 /* OnboardingVC.swift in Sources */,
 				8278A343291D99CF00BE37A1 /* LoginVC.swift in Sources */,
 				8278A339291D85D100BE37A1 /* OnboardinCollectionViewCell.swift in Sources */,
-				8278A321291D836800BE37A1 /* ViewController.swift in Sources */,
+				8278A34B291E206F00BE37A1 /* Userdefault+Extansion.swift in Sources */,
 				8278A31D291D836800BE37A1 /* AppDelegate.swift in Sources */,
+				8278A3522927ABB800BE37A1 /* HomeTVC.swift in Sources */,
+				8278A3502927A57D00BE37A1 /* HomeVC.swift in Sources */,
 				8278A332291D84BA00BE37A1 /* Extansion+UIView.swift in Sources */,
 				8278A31F291D836800BE37A1 /* SceneDelegate.swift in Sources */,
+				8278A360294B6FF200BE37A1 /* CryptoViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
